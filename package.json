@@ -7,9 +7,9 @@
     "email": "lihuanwen1993@gmail.com"
   },
   "scripts": {
-    "releasePatch": "vite build && npm version patch && npm publish",
-    "releaseMinor": "vite build && npm version minor && npm publish",
-    "releaseMajor": "vite build && npm version major && npm publish",
+    "releasePatch": "npm version patch && npm publish",
+    "releaseMinor": "npm version minor && npm publish",
+    "releaseMajor": "npm version major && npm publish",
     "release": "release-it"
   },
   "type": "module",
