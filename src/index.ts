@@ -6,8 +6,8 @@ export class Keyboard {
   public options: KeyboardImpl.Options
 
   constructor(container: HTMLElement, options: KeyboardImpl.Options = {}) {
-    this.keyboardImpl = new KeyboardImpl(container, this.options)
     this.options = { enabled: true, ...options }
+    this.keyboardImpl = new KeyboardImpl(container, this.options)
   }
 
   // #region api
