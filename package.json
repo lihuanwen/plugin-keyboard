@@ -23,7 +23,8 @@
     "mousetrap": "^1.6.5"
   },
   "devDependencies": {
-    "@types/mousetrap": "^1.6.15"
+    "@types/mousetrap": "^1.6.15",
+    "release-it": "^17.4.0"
   },
   "homepage": "https://github.com/lihuanwen/plugin-keyboard",
   "bugs": {
